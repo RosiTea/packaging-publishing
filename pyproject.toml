@@ -18,6 +18,7 @@ dependencies = [
 ]
 
 [tool.poetry]
+packages = [{include = "cancer_prediction"}]
 
 [tool.poetry.group.dev.dependencies]
 black = "^25.1.0"
